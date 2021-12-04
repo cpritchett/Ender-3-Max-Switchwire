@@ -1,7 +1,12 @@
 # Ender 3 Max to Switchwire Conversion
 
 ## Warning
-This conversion isn't completed. Please don't use this yet.
+This conversion isn't completed. Please don't use this yet. The list of things to complete are
+* Create a rough Ender 3 Max frame to work with
+* Create a new y endstop for mounting with the second 2040 frame that gets in the way of it on the Max
+* The bed carriage needs to be re-designed to hold the larger 310 x 320 build plate
+* The longer y axis needs a better belt path. The clearance of the belt is a little close as-is The original motor mount uses an extra idler on the back.
+* A mounting method out the sides for the wider virtical extrusions to have the enclosure. The overall enclosure will need to be bigger.
 
 This is a full conversion of the popular Ender 3 Pro/V2 to a Voron Switchwire as a fork of boubounokefalos's conversion that he did with [Triano](https://github.com/walttriano). The motivation came from [his awesome original conversion](https://github.com/walttriano/VoronUsers/tree/master/printer_mods/Triano/Ender_3Pro_Switchwire) that was used as a starting point, however almost everything was re-designed from scratch (in order to follow the Voron guidelines and aesthetics more accurately). Another factor that led to this re-design, was the need to be able to enclose this printer in a, visually, pleasant and, structurally, functional way. The ingenious design of 5x MGN12H Linear Rails - 300mm (dual Y axis rail) from Triano was preserved and the printing volume is ~220x220x220.
 
