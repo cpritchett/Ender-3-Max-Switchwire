@@ -9,8 +9,9 @@ This conversion isn't completed. Please don't use this as-is. If you want to do 
 * The Motor mounts that I'm using should be moved in a little bit before the enclosure can be made as the belts would rub on the enclosure.
 * The virtical drag chain part needs to be printed mirrored / sticking out and/or modified in order to fit in the space.
 
-After my build, here are the modifications that I made in the build, but aren't in this branch yet.
+After my build, here are the modifications and notes that I have for the build, but aren't in this branch yet.
 * I'm using the motor mounts from https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Gizzle/ender-3_(pro)_switchwire
+* When using these mounts, the left motor's gear needs to be put on backwards from the standard guide.
 * The [a]_z_chain_lower_mount_generic.stl part needed to be printed mirrored on the x axis to have it go over the edge of the printer.
 * The keyback idler needed to be mounted to the outside vslot and about 240mm higher to accomodate the extra virtical space.
 * I cut the x axis aluminum extrusion to about 380mm.
