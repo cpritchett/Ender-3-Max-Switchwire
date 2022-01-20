@@ -1,14 +1,25 @@
 # Ender 3 Max to Switchwire Conversion
 
 ## Warning
-This conversion isn't completed. Please don't use this yet. The list of things to complete are
+This conversion isn't completed. Please don't use this as-is. If you want to do this conversion, check the modification notes below, but please note that I may have missed something. The list of things to complete are
 * Create a rough Ender 3 Max frame to work with
-* Create a new y endstop for mounting with the second 2040 frame that gets in the way of it on the Max
-* The bed carriage needs to be re-designed to hold the larger 310 x 320 build plate
-* The longer y axis needs a better belt path. The clearance of the belt is a little close as-is The original motor mount uses an extra idler on the back.
-* A mounting method out the sides for the wider virtical extrusions to have the enclosure. The overall enclosure will need to be bigger as the virtical extrusions are mounted beside the bottom frame rather than on top of the frame like it is in the Ender 3 and Switchwire
+* Move the keyback idler further up on the frame by about 24cm to account for the keyback fully extending/bottoming out.
+* Add instructions to drill holes in the Y carriage.
+* A mounting method out the sides for the wider virtical extrusions for the enclosure. The overall enclosure will need to be bigger as the virtical extrusions are mounted beside the bottom frame rather than on top of the frame like it is in the Ender 3 and Switchwire.
+* The Motor mounts that I'm using should be moved in a little bit before the enclosure can be made as the belts would rub on the enclosure.
+* The virtical drag chain part needs to be printed mirrored / sticking out and/or modified in order to fit in the space.
 
-This is a full conversion of the popular Ender 3 Pro/V2 to a Voron Switchwire as a fork of boubounokefalos's conversion that he did with [Triano](https://github.com/walttriano). The motivation came from [his awesome original conversion](https://github.com/walttriano/VoronUsers/tree/master/printer_mods/Triano/Ender_3Pro_Switchwire) that was used as a starting point, however almost everything was re-designed from scratch (in order to follow the Voron guidelines and aesthetics more accurately). Another factor that led to this re-design, was the need to be able to enclose this printer in a, visually, pleasant and, structurally, functional way. The ingenious design of 5x MGN12H Linear Rails - 300mm (dual Y axis rail) from Triano was preserved and the printing volume is ~220x220x220.
+After my build, here are the modifications that I made in the build, but aren't in this branch yet.
+* I'm using the motor mounts from https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Gizzle/ender-3_(pro)_switchwire
+* The [a]_z_chain_lower_mount_generic.stl part needed to be printed mirrored on the x axis to have it go over the edge of the printer.
+* The keyback idler needed to be mounted to the outside vslot and about 240mm higher to accomodate the extra virtical space.
+* I cut the x axis aluminum extrusion to about 380mm.
+* The linear rails that I selected are 2 x 420mm for the Z, 2x400mm for the Y, and 1x350mm for the X.
+* I extended the spacer block from the front to 50mm and printed 2 of them for the back grill.
+* I used the silicon mod for my bed leveling screws. This meant that the front left screw needed to be cut off.
+* The front bed clips were removed, and the back two bed clips were left in place to align the PEI sheet similar to how it would be on a Prusa.
+
+This is a full conversion of the Ender 3 Max to a Voron Switchwire as a fork of boubounokefalos's conversion that he did with [Triano](https://github.com/walttriano). The motivation came from [his awesome original conversion](https://github.com/walttriano/VoronUsers/tree/master/printer_mods/Triano/Ender_3Pro_Switchwire) that was used as a starting point, however almost everything was re-designed from scratch (in order to follow the Voron guidelines and aesthetics more accurately). Another factor that led to this re-design, was the need to be able to enclose this printer in a, visually, pleasant and, structurally, functional way. The ingenious design of 5x MGN12H Linear Rails - 300mm (dual Y axis rail) from Triano was preserved and the printing volume is ~220x220x220.
 
 (For assembly tips regarding some unique parts of this conversion, check the [Wiki](https://github.com/boubounokefalos/Ender_SW/wiki)).
 
