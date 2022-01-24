@@ -8,6 +8,7 @@ This conversion isn't completed. Please don't use this as-is. If you want to do 
 * A mounting method out the sides for the wider virtical extrusions for the enclosure. The overall enclosure will need to be bigger as the virtical extrusions are mounted beside the bottom frame rather than on top of the frame like it is in the Ender 3 and Switchwire.
 * The Motor mounts that I'm using should be moved in a little bit before the enclosure can be made as the belts would rub on the enclosure.
 * The virtical drag chain part needs to be printed mirrored / sticking out and/or modified in order to fit in the space.
+* The y motor mount is too low. At high speeds, the belt will rub causing some pretty ugly lines on the print.
 
 After my build, here are the modifications and notes that I have for the build, but aren't in this branch yet.
 * I'm using the motor mounts from https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Gizzle/ender-3_(pro)_switchwire
