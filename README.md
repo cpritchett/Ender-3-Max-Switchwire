@@ -14,9 +14,9 @@ After my build, here are the modifications and notes that I have for the build, 
 * I'm using the motor mounts from https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/Gizzle/ender-3_(pro)_switchwire
 * When using these mounts, the left motor's gear needs to be put on backwards from the standard guide.
 * The [a]_z_chain_lower_mount_generic.stl part needed to be printed mirrored on the x axis to have it go over the edge of the printer.
-* The keyback idler needed to be mounted to the outside vslot and about 240mm higher to accomodate the extra virtical space. To enclose the system, I will re-print this part mirrored along the Z and rotated 180 on Y so that the holder is mounted further away but within the frame.
+* The keyback idler needed to be mounted to the outside vslot and about 240mm higher to accomodate the extra virtical space. To enclose the system, the keybak mount will need some design work. 
 * I cut the x axis aluminum extrusion to 380mm.
-* The linear rails that I selected are 2 x 420mm for the Z, 2x400mm for the Y, and 1x340mm for the X. I don't currently have the 340mm X. I may cut down the 350mm or see if I can source it somewhere. I wanted to use the original Voron Switchwire XZ blocks as they use more sturdy mounts to the X gantry
+* The linear rails that I selected are 2 x 420mm for the Z, 2x400mm for the Y, and 1x340mm for the X. I don't currently have the 340mm X. I cut down my 350mm by 8.25mm with a Dremel to get a good fit between the original switchwire XZ blocks. I wanted to use the original Voron Switchwire XZ blocks as they use more sturdy mounts to the X gantry
 * I extended the spacer block from the front to 50mm and printed 2 of them for the back grill.
 * I used the silicon mod for my bed leveling screws. This meant that the front left screw needed to be cut off.
 * The front bed clips were removed, and the back two bed clips were left in place to align the PEI sheet similar to how it would be on a Prusa.
